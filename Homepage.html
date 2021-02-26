@@ -25,16 +25,15 @@
 	<!-- header parts starts here -->
 	
 	<section id="navbar">
-	        <div class="link hidden-xs hidden-sm">
-            <div class="container">
+	        <div class="link">
                 <div class="link1">
-					<p>Welcome to your store</p>
+					<span>Welcome to your store</span>
                 </div>
 				<div class="link3">
-					<p class="admin">Administration</p>
+					<span class="admin">Administration</span>
 				</div>
                 <div class="link2">
-                    <a href="#"><i class="fa fa-map-marker" aria-hidden="true"><span class="fa-text">&nbsp Location<span></i></a>
+                    <a href="https://www.google.com/maps"><i class="fa fa-map-marker" aria-hidden="true"><span class="fa-text">&nbsp Location<span></i></a>
                     <span class="first">
 						<span class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                            English
@@ -58,7 +57,6 @@
 					</span>
 					
                 </div>
-            </div>
         </div>
 	
 	<div class="navbar">
@@ -271,16 +269,88 @@
 <!-- pic-slider starts here -->
 
 <section id="pic-slider">
-	<div class="picSlider">
-		<img class="pic_slider_one" src="Images/image-1.PNG" width="700px" height="400px">
-	</div>
-	<div class="pic_slider_one_details_all">
-		<img class="pic_slider_two" src="Images/image-2.PNG" width="500px" height="400px" style="padding-left:20px";>
-		<div class="pic_slider_one_details">
-		<h2>SNOWBOARD GEAR</h2>
-		<button type="button" class="btn btn-primary">Primary</button>
-		</div>
-		</div>
+		<div class="row">
+			<div class="col-lg-8 product_image-tab">
+				<div class="product-tab_ads">
+					<img src="Images/images-7.PNG" height="500px"/>
+					<button type="button" class="btn btn-primary">SLEEPING BAGS & PADS</button>
+				</div>
+				<div class="product_tab_slide">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					  <li class="nav-item">
+						<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">NEW PRODUCTS</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">FEATURES</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">BEST MATCH</a>
+					  </li>
+					</ul>
+					<hr>
+					<div class="tab-content" id="pills-tabContent">
+					
+					  <div class="tab_pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+						<div class="tab_content_one">
+						<img class="tab_pane_image_1" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_1">Hello world</span>
+						<img class="tab_pane_image_2" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_2">Hello world</span>
+						</div>
+						
+						<div class="tab_content_two">
+						<img class="tab_pane_image_3" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_3">Hello world</span>
+						<img class="tab_pane_image_4" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_4">Hello world</span>
+						</div>
+					  </div>
+					  
+					  
+					  <div class="tab-pane fade tab_pane_one" id="pills-profile" role="tabpanel" aria-labelledby="pills-home-tab">
+						<div class="tab_content_one">
+						<img class="tab_pane_image_1" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_1">Hello world</span>
+						<img class="tab_pane_image_2" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_2">Hello world</span>
+						</div>
+						
+						<div class="tab_content_two">
+						<img class="tab_pane_image_3" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_3">Hello world</span>
+						<img class="tab_pane_image_4" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_4">Hello world</span>
+						</div>
+					  </div>
+					  
+					  
+					  <div class="tab-pane fade tab_pane_two" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+						<div class="tab_content_one">
+						<img class="tab_pane_image_1" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_1"></span>
+						<img class="tab_pane_image_2" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_2">Hello world</span>
+						</div>
+						
+						<div class="tab_content_two">
+						<img class="tab_pane_image_3" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_3">Hello world</span>
+						<img class="tab_pane_image_4" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_4">Hello world</span>
+						</div>
+					  </div>
+					  
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-lg-4 image_section">
+				<img src="Images/image-2.PNG"/>
+				<h2>SNOWBOARD GEAR</h2>
+				<button type="button" class="btn btn-primary">SHOP NOW</button>
+		    </div>
 </section>
 
 
@@ -388,13 +458,92 @@
 
 
 
-<section id="pic-slider-one">
-	<div class="picSliderOne">
-		<img class="pic_slider_image_one" src="Images/images-7.PNG" width="700px" height="400px">
-		<img class="pic_slider_image_two" src="Images/images-8.PNG" width="500px" height="400px" style="padding-left:20px";>
-	</div>
-	
+<section id="pic-slider">
+		<div class="row">
+			<div class="col-lg-8 product_image-tab">
+				<div class="product-tab_ads">
+					<img src="Images/images-7.PNG" height="500px"/>
+					<button type="button" class="btn btn-primary">SLEEPING BAGS & PADS</button>
+				</div>
+				<div class="product_tab_slide">
+				<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+					  <li class="nav-item">
+						<a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">NEW PRODUCTS</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">FEATURES</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">BEST MATCH</a>
+					  </li>
+					</ul>
+					<hr>
+					<div class="tab-content" id="pills-tabContent">
+					
+					  <div class="tab_pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+						<div class="tab_content_one">
+						<img class="tab_pane_image_1" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_1">Hello world</span>
+						<img class="tab_pane_image_2" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_2">Hello world</span>
+						</div>
+						
+						<div class="tab_content_two">
+						<img class="tab_pane_image_3" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_3">Hello world</span>
+						<img class="tab_pane_image_4" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_4">Hello world</span>
+						</div>
+					  </div>
+					  
+					  
+					  <div class="tab-pane fade tab_pane_one" id="pills-profile" role="tabpanel" aria-labelledby="pills-home-tab">
+						<div class="tab_content_one">
+						<img class="tab_pane_image_1" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_1">Hello world</span>
+						<img class="tab_pane_image_2" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_2">Hello world</span>
+						</div>
+						
+						<div class="tab_content_two">
+						<img class="tab_pane_image_3" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_3">Hello world</span>
+						<img class="tab_pane_image_4" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_4">Hello world</span>
+						</div>
+					  </div>
+					  
+					  
+					  <div class="tab-pane fade tab_pane_two" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+						<div class="tab_content_one">
+						<img class="tab_pane_image_1" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_1">Hello world</span>
+						<img class="tab_pane_image_2" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_2">Hello world</span>
+						</div>
+						
+						<div class="tab_content_two">
+						<img class="tab_pane_image_3" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_3">Hello world</span>
+						<img class="tab_pane_image_4" src="Images/images-28.PNG"/>
+						<span class="tab_pane_span_4">Hello world</span>
+						</div>
+					  </div>
+					  
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-lg-4 image_section">
+				<img src="Images/image-2.PNG"/>
+				<h2>SNOWBOARD GEAR</h2>
+				<button type="button" class="btn btn-primary">SHOP NOW</button>
+		    </div>
+		</div>
 </section>
+
 
 
 
@@ -500,22 +649,22 @@
 
 
 <section id="picture_bar">
-	<div class ="picture_bar_item">
-		<img class="img_one"src="Images/images-16.PNG" width="590px" height="250px">
+<div class="row">
+	<div class ="col-lg-6 picture_bar_item">
+		<img class="img_one"src="Images/images-16.PNG">
 		<div class="picture_bar_item_details">
-				<h4 class="">SNOWBOARD PANT'S</h4>
-				<button type="button" class="btn btn-dark"><i class="fa fa-shopping-bag" aria-hidden="true"><span>SHOP NOW</span></i></button>
+			<h4 class="">SNOWBOARD PANT'S</h4>
+			<button type="button" class="btn btn-dark"><i class="fa fa-shopping-bag" aria-hidden="true"><span>SHOP NOW</span></i></button>
 		</div>
 	</div>
-	
-	<div class="picture_bar_item_one">
-		<img class="img_two"src="Images/image-17.PNG" width="590px" height="250px">
-				<div class="picture_bar_item_details_one">
-				<h4 class="">SNOWBOARD GEAR</h4>
-				<button type="button" class="btn btn-dark"><i class="fa fa-shopping-bag" aria-hidden="true"><span>SHOP NOW</span></i></button>
+	<div class ="col-lg-6 picture_bar_item_one">
+		<img class="img_one"src="Images/images-16.PNG">
+		<div class="picture_bar_item_details">
+			<h4 class="">SNOWBOARD PANT'S</h4>
+			<button type="button" class="btn btn-dark"><i class="fa fa-shopping-bag" aria-hidden="true"><span>SHOP NOW</span></i></button>
 		</div>
 	</div>
-
+</div>
 </section>
 
 
